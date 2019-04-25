@@ -53,6 +53,8 @@ $(document).ready(function() {
 
   $('.owl-carousel').owlCarousel({
     loop: true,
+    autoplay: true,
+    // autoplayTimeout: 10000,
     items: 4,
     responsive: {
       0: {
@@ -134,23 +136,4 @@ $(document).ready(function() {
     var targetPosition = $(targetElement).offset().top;
     $('html, body').animate({ scrollTop: targetPosition - 50 }, 'slow');
   });
-
-  // //Sticky Nav
-  // const nav = $("#navigation");
-  // const navTop = nav.offset().top;
-
-  // $(window).on("scroll", stickyNavigation)
-
-  // function stickyNavigation() {
-
-  //     const body = $("body");
-
-  //     if($(window).scrollTop() >= navTop) {
-  //         body.css("padding-top", nav.outerHeight() + "px");
-  //         body.addClass("fixedNav");
-  //     } else {
-  //         body.css("padding-top", 0);
-  //         body.removeClass("fixedNav");
-  //     }
-  // }
 });

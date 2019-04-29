@@ -464,12 +464,14 @@ body {
 
 .copyrightSection a,
 .fa-linkedin,
-.fa-github-square {
+.fa-twitter,
+.fa-github {
   color: white;
 }
 
 .copyrightSection a:hover,
 .fa-linkedin:hover,
-.fa-github-square:hover {
+.fa-twitter:hover,
+.fa-github:hover {
   color: #22333b;
 }

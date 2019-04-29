@@ -461,3 +461,15 @@ body {
 .owl-dots .owl.dot.active span {
   opacity: 1;
 }
+
+.copyrightSection a,
+.fa-linkedin,
+.fa-github-square {
+  color: white;
+}
+
+.copyrightSection a:hover,
+.fa-linkedin:hover,
+.fa-github-square:hover {
+  color: #22333b;
+}
